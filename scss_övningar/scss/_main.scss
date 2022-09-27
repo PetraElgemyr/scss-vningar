@@ -1,0 +1,36 @@
+@use "variables.scss";
+@use "mixins.scss";
+.papa-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    
+    .container {
+        height: 200px;
+        width: 100px;
+        border: 2px solid red;
+        color: variables.$font-color;
+        background-color: variables.$primary;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        section {
+            height: 50px;
+            width: 60px;
+            background-color: variables.$font-color;
+        }
+}
+
+}
+
+tbody > tr:nth-child(odd){
+    background-color: rgb(68, 38, 174);
+}
+
+.my-list {
+    @include mixins.list;
+}

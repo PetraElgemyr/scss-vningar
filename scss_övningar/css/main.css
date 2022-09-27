@@ -1,0 +1,37 @@
+.papa-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+.papa-div .container {
+  height: 200px;
+  width: 100px;
+  border: 2px solid red;
+  color: purple;
+  background-color: rgb(127, 193, 68);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.papa-div .container section {
+  height: 50px;
+  width: 60px;
+  background-color: purple;
+}
+
+tbody > tr:nth-child(odd) {
+  background-color: rgb(68, 38, 174);
+}
+
+.my-list {
+  border: 2px solid rgb(34, 0, 255);
+  color: purple;
+  background-color: pink;
+  list-style: none;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=main.css.map */
